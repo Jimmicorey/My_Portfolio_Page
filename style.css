@@ -1,0 +1,128 @@
+* {
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 800;
+}
+
+
+body {
+    margin: 0;
+    background-color: #b4d1fd;
+}
+
+.wrapper {
+    width: 650px;
+    margin: auto;
+    text-align: center;	
+}
+
+hr {
+    margin-top: 55px;
+    margin-bottom: 125px;
+    border: none;
+    border-radius: 100%;
+    height: 5px;
+    background-color: #0f479b;
+    
+}
+
+ul {
+    text-align: left;
+}
+
+/* ---LINK STYLES--- */
+a:link, a:visited {
+    text-decoration: none;
+    color: #1100ff;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+
+/* ---TEXT & HEADINGS--- */
+p {
+    color: #03204e;
+    text-align: left;
+}
+
+.centered_text, h3 {
+    color: #03204e;
+    text-align: center;
+}
+
+h3, #contact {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+
+/* ---PROFILE IMAGE--- */
+#profile_pic {
+    width: 85%;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 5px #7e99c2;
+}
+
+
+/* ---HEADER LOGO--- */
+header {
+    height: 100px;
+    background-color: #0058db;
+    text-align: center;
+    border-bottom: 5px solid #144fa7;
+}
+
+#my-logo {
+    color: #d6e5fb;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#my-title {
+    color: #a2c1f0;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+
+/* ---CONTACT ME--- */
+ol > #social-media  {
+    padding: 20px;
+}
+
+#social-media > li {
+    display: inline-block;
+    margin: 10px 50px;
+    
+}
+
+
+/* ---FOOTER--- */
+footer {
+    height: 50px;
+    background-color: #0058db;
+    padding-top: 5px;
+    border-top: 5px solid #144fa7;
+    margin-bottom: 0px;
+}
+
+footer #copyright {
+    color: #a2c1f0;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
