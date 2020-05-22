@@ -1,7 +1,7 @@
 * {
     font-size: 20px;
-    font-family: 'Patrick Hand', cursive;
-    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -26,9 +26,6 @@ hr {
     
 }
 
-ul {
-    text-align: left;
-}
 
 /* ---LINK STYLES--- */
 a:link, a:visited {
@@ -46,7 +43,17 @@ a:active {
 
 
 /* ---TEXT & HEADINGS--- */
-p {
+span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.centered {
+    display: inline-block;
+    margin-left: 245px;
+}
+
+p, ul {
     color: #03204e;
     text-align: left;
 }
@@ -57,10 +64,9 @@ p {
 }
 
 h3, #contact {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Chewy';
     font-size: 30px;
     margin-bottom: 15px;
-
 }
 
 
@@ -87,6 +93,7 @@ header {
 
 #my-logo {
     color: #d6e5fb;
+    font-family: 'Chewy';
     font-size: 40px;
     margin: 0px;
     padding-top: 10px;
